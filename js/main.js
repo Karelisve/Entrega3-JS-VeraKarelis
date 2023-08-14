@@ -298,12 +298,11 @@ const output = document.createElement('div');
           if (!ambosVivos()) {
             if (energiaJugador <= 0) {
               output.innerHTML += "El monstruo te ha vencido.<br>";
-              alert("el monstruo te ha vencido")
+              Swal.fire("el monstruo te ha vencido. La valentía y lucha no son para cualquiera")
               reiniciarJuego();
             } else {
               output.innerHTML += "¡Venciste al monstruo!<br>";
-              alert("venciste al monstruo")
-              reiniciarJuego();
+              Swal.fire("¡Venciste al Monstruo! Demostraste ser digno del poder que se te otorga")
             }
           }
         } else {
@@ -338,7 +337,3 @@ opcion2.addEventListener("click", function () {
 
 let sonidoReproducido = false;
 
-
-function reiniciarJuego() {
-  alert("Gracias por jugar. ¡Hasta luego guerrero!");
-}
