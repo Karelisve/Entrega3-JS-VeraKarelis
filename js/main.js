@@ -13,9 +13,8 @@ const historia = {
     opcion2: "Mago",
   },
   Caballero: {
-    imagen: "./img/cabañalejos.jpg",
-    texto:
-      "Has elegido ser un caballero. transitas por un antiguo sendero olvidado, ves una cabaña a lo lejos",
+    imagen: "./img/Cabañalejos.jpg",
+    texto:"Has elegido ser un caballero. transitas por un antiguo sendero olvidado, ves una cabaña a lo lejos",
     opcion1: "entrar",
     opcion2: "seguir",
   },
