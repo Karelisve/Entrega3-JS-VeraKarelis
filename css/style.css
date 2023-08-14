@@ -59,9 +59,6 @@ img {
     margin: 10px 20px 0px 20px;
 }
 
-#input {
-    
-}
 
 .botones {
     padding: 10px;
@@ -91,7 +88,18 @@ button:hover {
 }
 
 @media screen and (max-height: 800px) {
-    h1 {
-        margin-top: 200px;
-    }
+
+img {
+    width: 300px;
+    margin: 10px 20px 0px 20px;
+}
+
+.navbar {
+    background-image: url(../img/AnillodeFuegofooter.jpg);
+    background-position: center;
+    background-size:auto;
+    padding: 20px;
+}
+
+
 }
