@@ -6,14 +6,14 @@ const opcion2 = document.getElementById("opcion2");
 // Se crea un objeto que contiene la información de cada parte de la historia
 const historia = {
   inicio: {
-    imagen: "../img/AnillodeFuego.jpg",
+    imagen: "./img/AnillodeFuego.jpg",
     texto:
       "¿Estas listo para seguir tu destino? Elige convertirte en un Honorable Caballero o en un Mago en ascenso",
     opcion1: "Caballero",
     opcion2: "Mago",
   },
   Caballero: {
-    imagen: "./img/Cabañalejos.jpg",
+    imagen: "./img/cabana.jpg",
     texto:"Has elegido ser un caballero. transitas por un antiguo sendero olvidado, ves una cabaña a lo lejos",
     opcion1: "entrar",
     opcion2: "seguir",
