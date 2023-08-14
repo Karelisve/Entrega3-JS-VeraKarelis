@@ -87,7 +87,7 @@ button:hover {
     cursor: pointer;
 }
 
-@media screen and (max-height: 800px) {
+@media screen and (max-height: 1000px) {
 
 img {
     width: 300px;
@@ -98,8 +98,15 @@ img {
     background-image: url(../img/AnillodeFuegofooter.jpg);
     background-position: center;
     background-size:auto;
-    padding: 20px;
+    padding: 10px;
 }
+h1 {
+    font-size: 20px;
 
+}
+p {
+    font-size: 20px;
+    margin: 5px;
+}
 
 }
