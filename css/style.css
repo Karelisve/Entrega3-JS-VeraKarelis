@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Chakra Petch', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital@1&display=swap');
+
+.navbar {
+    background-image: url(../img/AnillodeFuegofooter.jpg);
+    background-position: center;
+    background-size:auto;
+    padding: 30px;
+}
+
+body {
+    background-color: #1e1a17;
+}
+
+.inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+h1 {
+    color: rgb(248, 230, 197);
+    text-align: center;
+    font-size: 55px;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p {
+    color: rgb(248, 230, 197);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 5x;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+
+img {
+    width: 400px;
+    margin: 10px 20px 0px 20px;
+}
+
+
+.botones {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: none;
+}
+
+button {
+    padding: 20px;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.872);
+    color: rgb(201, 126, 22);
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(224, 136, 54);
+    cursor: pointer;
+}
+
+@media screen and (max-height: 800px) {
+    h1 {
+        margin-top: 200px;
+    }
+}
